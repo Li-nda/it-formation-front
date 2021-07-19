@@ -1,0 +1,84 @@
+h1, h2, h3 {
+    color: rgb(4, 4, 41);
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    color: gray;
+}
+
+main {
+    padding-bottom: 70px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qui-sommes-nous {
+    text-align: center;
+}
+
+.histoire-vision-mission {
+    display: flex;
+}
+
+.histoire, .vision, .missions {
+    margin: 30px;
+    text-align: justify;
+}
+
+.valeurs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.engagement, .expertise, .excellence {
+    margin: 30px;
+    text-align: justify;
+}
+
+.equipe {
+    text-align: center;
+    margin: 30px;
+}
+
+@media all and (max-width: 1024px)
+{
+    h1, h2
+    {
+        font-size: 1.1em;
+    }
+    p
+    {
+        font-size: 0.8em;
+    }
+    .img1
+    {
+        width: 100%;
+    }
+    .histoire-vision-mission
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .histoire, .vision, .missions, .engagement, .expertise, .excellence, .equipe, .h2valeurs
+    {
+        margin-top: -25px;
+    }
+    .valeurs
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .valeurs h3
+    {
+        font-size: 0.90em;
+    }
+}

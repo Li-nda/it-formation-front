@@ -1,0 +1,77 @@
+.header {
+    margin: -10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(rgb(129, 195, 204), white);
+}
+
+.qui-sommes-nous {
+    margin-right: 130px;
+    font-size: 1.4em;
+    color: #1f5d75;
+    font-weight: bold;
+}
+
+.connexion-admin
+{
+    margin: 35px;
+    font-size: 1.4em;
+    color: #1f5d75;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1f5d75;
+}
+.qui-sommes-nous:hover, .connexion-admin:hover {
+    border-bottom: 2px solid #1f5d75;;
+    color: #1f5d75;;
+}
+
+@media all and (max-width: 1024px)
+{
+    .header
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: orangered solid 1px;
+        margin-bottom: -80px;
+    }
+    .logo
+    {
+        border: blue solid 1px;
+    }
+    .logo img
+    {
+        width: 200px;
+    }
+    .logo img:hover
+    {
+        width: 250px;
+    }
+    .qui-sommes-nous
+    {
+        margin-top: -10px;
+        margin-left: 150px;
+        font-size: 1.1em;
+    }
+    .connexion-admin
+    {
+        margin-top: 0px;
+        font-size: 1.1em;
+        margin-bottom: -50px;
+    }
+    .qui-sommes-nous:hover, .connexion-admin:hover
+    {
+        border-bottom: transparent;
+        font-size: 1.2em;
+    }
+}
